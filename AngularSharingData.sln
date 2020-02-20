@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularSharingData", "AngularSharingData\AngularSharingData.csproj", "{C8C505AC-A4E8-415C-B15C-24BD6E0CBDF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8C505AC-A4E8-415C-B15C-24BD6E0CBDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C505AC-A4E8-415C-B15C-24BD6E0CBDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C505AC-A4E8-415C-B15C-24BD6E0CBDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C505AC-A4E8-415C-B15C-24BD6E0CBDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A50FE364-33A2-4769-9AA7-F4C3E35F1AC1}
+	EndGlobalSection
+EndGlobal

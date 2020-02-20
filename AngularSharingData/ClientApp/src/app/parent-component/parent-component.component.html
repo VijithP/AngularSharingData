@@ -1,0 +1,18 @@
+<div style="height: 600px;width: 100%;background-color:wheat;padding: 20px;">
+
+    <h2>Parent-component works!</h2>
+   
+    Common MSG <b style="color: dodgerblue;">{{similarMsg}}</b>  <i style="background-color: yellow;">(Common message for all component)</i>
+    <br>
+    <p>Message from child 1 <b style="color: red;">{{messageFromChild}} </b></p>  <i style="background-color: yellow;">(child component 1 to parent using @output)</i>
+   
+    <p>Message from child 2 <b style="color: blue;">{{messageFromChild2}} </b></p> <i style="background-color: yellow;">(child component 2 to parent using @viewchild)</i>
+  
+   <app-child-component [loggedUName]="loggedUserName" (messageFromChild)="MessageFromHandler($event)"></app-child-component>
+
+   <app-child-component2 (messageFromChild2)="MessageFromHandler2($event)"></app-child-component2>
+
+</div>
+
+
+
